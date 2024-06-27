@@ -2863,7 +2863,7 @@ input, select, textarea {
 
 	/* Header */
 	#header {
-		background: #151515 url(/images/intro-bg.JPG) no-repeat center center;
+		background: #151515 url(/images/intro-bg.jpg) no-repeat center center;
 		background-size: cover;
 		text-align: center;
 		height: 100vh;

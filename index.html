@@ -431,27 +431,6 @@
         }
     }
 
-    // Open Modal
-    document.querySelector('a[href="contactme.html"]').addEventListener('click', function(event) {
-        event.preventDefault();
-        document.getElementById('hireMeModal').style.display = 'block';
-    });
-
-    // Close Modal
-    function closeModal(modalId) {
-        document.getElementById(modalId).style.display = 'none';
-    }
-
-    // Close Modal when clicking outside of the modal
-    window.onclick = function(event) {
-        const modals = document.getElementsByClassName('modal');
-        for (let i = 0; i < modals.length; i++) {
-            if (event.target == modals[i]) {
-                modals[i].style.display = 'none';
-            }
-        }
-    }
-
 </script>
 <script>
     var acc = document.getElementsByClassName("accordion");
